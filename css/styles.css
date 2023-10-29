@@ -644,8 +644,10 @@ border-radius: 2px;
 .subscribe-form {
     display: flex;
 }
-.sub-footer {
+.subscribe-label {
     gap: 24px;
+}
+.sub-footer {
     width: 264px;
     height: 40px;
     border: 1px solid var(--white-background-color);
