@@ -645,6 +645,7 @@ border-radius: 2px;
     display: flex;
 }
 .sub-footer {
+    gap: 24px;
     width: 264px;
     height: 40px;
     border: 1px solid var(--white-background-color);
