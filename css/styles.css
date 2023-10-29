@@ -643,10 +643,9 @@ border-radius: 2px;
 }
 .subscribe-form {
     display: flex;
-}
-.subscribe-label {
     gap: 24px;
 }
+
 .sub-footer {
     width: 264px;
     height: 40px;
@@ -664,6 +663,7 @@ border-radius: 2px;
     color: var(--white-background-color);
 }
 .button-subscribe {
+    display: inline-flex;
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -682,4 +682,7 @@ border-radius: 2px;
 }
 .icon-subscribe {
     margin-left: 16px;
+}
+.container-subscribe {
+    flex-shrink: 0;
 }
