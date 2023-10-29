@@ -633,3 +633,30 @@ border-radius: 2px;
 .icon-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-background-color);
+}
+.subscribe-form {
+    display: flex;
+}
+.sub-footer {
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--white-background-color);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white-background-color);
+}
+.placeholder {
+    color: var(--white-background-color);
+}
