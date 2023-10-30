@@ -607,6 +607,17 @@ border-radius: 2px;
     color: var(--dark-color);
     margin-bottom: 16px;
 }
+.modal-person {
+    margin-bottom: 8px;
+}
+.modal-name {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--subtle-text-color);
+    display: block;
+    margin-bottom: 4px;
+}
 .close-btn {
     position: absolute;
     top: 24px;
