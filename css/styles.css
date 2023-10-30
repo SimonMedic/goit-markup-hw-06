@@ -159,10 +159,7 @@ border-radius: 2px;
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 .paragraph {
     font-size: 16px;
     line-height: 1.5;
@@ -261,10 +258,7 @@ border-radius: 2px;
     color: var(--dark-color);
     margin-bottom: 72px;
 }
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 .team-photo {
     background-color: var(--white-background-color);
     border-radius: 0px 0px 4px 4px;
@@ -568,7 +562,7 @@ border-radius: 2px;
         fill: var(--light-color);
 }
 .container-socials-footer {
-        margin-right: 120px;
+        margin-right: auto;
 }
 .container-logo-footer {
         margin-right: 120px;
