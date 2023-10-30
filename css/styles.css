@@ -631,7 +631,7 @@ border-radius: 2px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-person-input:hover {
+.modal-person-input:focus {
     border-color: var(--primary-brand-color);
 }
 .close-btn {
