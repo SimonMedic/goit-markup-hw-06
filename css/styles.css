@@ -631,6 +631,9 @@ border-radius: 2px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-person-input:focus {
+    border-color: var(--primary-brand-color);
+}
 .modal-person-input:focus + .icon-modal {
     fill: var(--primary-brand-color);
 }
